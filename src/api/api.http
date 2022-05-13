@@ -1,0 +1,8 @@
+GET https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/historical
+  ?symbol=BTC
+  &time_start=2018-01-01
+  &time_end=2018-01-02
+  &convert=USD
+  &interval=7d
+X-CMC_PRO_API_KEY: a2a4274f-371e-4c0e-a67f-4839f6b9e414
+
